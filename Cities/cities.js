@@ -1,6 +1,6 @@
-function describe_cities(city, country) {
-    if (country === void 0) { country = "Default country."; }
-    console.log("".concat(city, " is in ").concat(country));
+"use strict";
+function describe_cities(city, country = "Default country.") {
+    console.log(`${city} is in ${country}`);
 }
 describe_cities("Istanbul");
 describe_cities("Cairo", "Egypt");

@@ -1,9 +1,10 @@
+"use strict";
 //variables
-var strawberry = "strawberry";
-var uppercaseStrawberry = "STRAWBERRY";
-var four = 4;
-var ten = 10;
-var cities = ["Karachi", "Quetta", "Abbotabad", "Hyderabad"];
+let strawberry = "strawberry";
+let uppercaseStrawberry = "STRAWBERRY";
+let four = 4;
+let ten = 10;
+let cities = ["Karachi", "Quetta", "Abbotabad", "Hyderabad"];
 //equality and inequality test with strings
 console.log("Is strawberry is equal to strawberry?");
 console.log(strawberry == "strawberry");

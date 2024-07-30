@@ -1,4 +1,5 @@
-var theerrorArray = ["Tania", "Fahad", "Fazal", "Sania", "56", "A34"];
+"use strict";
+let theerrorArray = ["Tania", "Fahad", "Fazal", "Sania", "56", "A34"];
 //console.log(theerrorArray[8]);
 //remove the error
 //console.log(theerrorArray[5]);

@@ -1,7 +1,8 @@
+"use strict";
 //variables
-var hundred = 100;
-var thousand = 1000;
-var car = "sabaru";
+let hundred = 100;
+let thousand = 1000;
+let car = "sabaru";
 //first test
 console.log("first test: hundred is equal to 100?");
 console.log(hundred == 100);

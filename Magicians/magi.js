@@ -1,6 +1,7 @@
-var magicians = ["David Copperfield", "David Blaine", "Harry Houdini", "Derren Brown"];
+"use strict";
+let magicians = ["David Copperfield", "David Blaine", "Harry Houdini", "Derren Brown"];
 function show_magician(magicians) {
-    magicians.forEach(function (element) {
+    magicians.forEach(element => {
         console.log(element);
     });
 }

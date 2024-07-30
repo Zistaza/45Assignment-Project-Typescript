@@ -1,21 +1,13 @@
-var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-};
+"use strict";
 //array of printing original order
-var placestovisit = ["Dubai", "Middle East", "Italy", "Eygpt"];
+let placestovisit = ["Dubai", "Middle East", "Italy", "Eygpt"];
 console.log("Originl order:", placestovisit);
 //now printing the in alphabetical order without modifying the originl order
-console.log("Alphabetical order:", __spreadArray([], placestovisit, true).sort());
+console.log("Alphabetical order:", [...placestovisit].sort());
 //showing that array is still in its original order
 console.log("it is still in originl order:", placestovisit);
 //now printing the reversed order array without modifying the original array order
-console.log("Reversed order:", __spreadArray([], placestovisit, true).reverse());
+console.log("Reversed order:", [...placestovisit].reverse());
 //showing that array is still in its original order
 console.log("it is still in original order:", placestovisit);
 //here now we have changed the original array order

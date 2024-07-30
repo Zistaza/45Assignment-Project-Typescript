@@ -1,12 +1,13 @@
-var myguestlist = ["Kinza", "Sarah", "Parisay", "Kashmala", "Ali"];
-var notcoming = myguestlist[4];
+"use strict";
+let myguestlist = ["Kinza", "Sarah", "Parisay", "Kashmala", "Ali"];
+let notcoming = myguestlist[4];
 //console.log(notcoming, "is not coming");
 myguestlist.splice(4, 4, "sheryaar");
 //console.log("Here is a Good News ! We have found  bigger table for iftaar dinner.");
 //adding a new value at starting array index
 myguestlist.unshift("Waleed");
 //adding a new value at middle array index
-var middleindex = Math.floor(myguestlist.length / 2);
+let middleindex = Math.floor(myguestlist.length / 2);
 myguestlist.splice(middleindex, 0, "Hajra");
 //adding a new value at ending array index
 myguestlist.push("Rubab");
@@ -17,7 +18,7 @@ myguestlist.push("Rubab");
 //console.log("I am really sorry to inform you all that the dinner table wont arrive on time,so i will be able to invite only two guests on today iftaar dinner with me");
 //removedguest using while loop
 while (myguestlist.length > 2) {
-    var guestremoved = myguestlist.pop();
+    let guestremoved = myguestlist.pop();
     //console.log(`I am really sorry, ${guestremoved} I cant invite you to iftaar dinner`);
 }
 //still invitation function
@@ -27,5 +28,5 @@ while (myguestlist.length > 2) {
 myguestlist.pop();
 myguestlist.pop();
 //console.log("EmptyList:",myguestlist);
-var lengthofguest = myguestlist.length;
-console.log("I am inviting total ".concat(lengthofguest, " guests."));
+let lengthofguest = myguestlist.length;
+console.log(`I am inviting total ${lengthofguest} guests.`);

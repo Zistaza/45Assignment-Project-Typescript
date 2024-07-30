@@ -1,3 +1,4 @@
+"use strict";
 //ADDITION
 console.log(7 + 1);
 //SUBSTRACTION

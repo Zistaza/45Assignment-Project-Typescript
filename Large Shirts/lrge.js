@@ -1,8 +1,7 @@
+"use strict";
 //function
-function make_shirt(size, text) {
-    if (size === void 0) { size = "large"; }
-    if (text === void 0) { text = "I love Typescript."; }
-    console.log("I am creating a ".concat(size, " shirt with the message: ").concat(text));
+function make_shirt(size = "large", text = "I love Typescript.") {
+    console.log(`I am creating a ${size} shirt with the message: ${text}`);
 }
 //call function
 make_shirt();

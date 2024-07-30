@@ -1,4 +1,5 @@
-var alien_color = "white";
+"use strict";
+let alien_color = "white";
 if (alien_color === "white") {
     console.log("white Player just earned 5 points !");
 }

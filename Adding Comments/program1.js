@@ -1,3 +1,4 @@
+"use strict";
 //ZEENAT YAMEEN
 // Fri 15 March 2024
 //writting program
